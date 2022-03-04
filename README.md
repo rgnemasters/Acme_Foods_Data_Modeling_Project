@@ -32,8 +32,20 @@ Viewed as boxplots, the distribution of the cumulative sum of item sales by Tier
 
 ![Cumulative Sales by Tier](https://github.com/rgnemasters/Food_Sales_Prediction_Project/blob/main/Cumulative%20Sales%20by%20Tier%20(1).png)
 
-**Sales by Category and Visibility**
+### Sales by Category and Visibility
 I also observed that certain food categories did very well on average that were not getting high visibility. 
 
 Optimal visibility seemed to be in the 7-15% range, but most stores set up their products in the 5% range.
-![Cumulative Sales by Tier](https://github.com/rgnemasters/Food_Sales_Prediction_Project/blob/main/item_vis_image_final2%20(1).png)
+![Item Visibility](https://github.com/rgnemasters/Food_Sales_Prediction_Project/blob/main/item_vis_image_final2%20(1).png)
+
+In fact, one of the lowest sellers by average (Breakfast Foods) was given the highest visibility on average, eclipsing #2 on the list by 1%, greater by almost double the .6% standard deviation. 
+
+![Visibility by Category](https://github.com/rgnemasters/Food_Sales_Prediction_Project/blob/main/vis_by_category1%20(1).png)
+
+## Recommendations
+Based on my observations from the data, it would seem expedient to have managers raise the visibility of items in top-selling categories. There seems to be a wide-range of well-performing products that take up ~10-15% of the shelf-space. These products do well because they stand out, of course, but they may also perform well due to helping customers reduce decision fatigue.
+
+Also, given observations of sales in Tier 3 stores, I would recommend that items that are of high importance be featured in Tier 3 stores in order to boost sales. 
+
+Lastly, I would recommend additiional data be added to this set to facilitate a dependable predictive model. Though each model was tuned to optimal max_depth and n_estimators, the best performing model scored a paltry 60.3% on the test data.
+
